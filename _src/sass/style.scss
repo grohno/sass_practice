@@ -4,3 +4,12 @@ ul {
     padding: 10px;
   }
 }
+
+@import "lecture21-1";
+@import "lecture21-2";
+
+@import "lecture22";
+
+#content {
+  @import "lecture22";
+}

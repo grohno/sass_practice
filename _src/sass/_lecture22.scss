@@ -1,0 +1,23 @@
+section {
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+p {
+  margin-bottom: 0;
+
+  @at-root .note {
+    color: #f00;
+  }
+
+  a {
+    &:hover {
+      text-align: underline;
+    }
+  }
+
+  #contents & {
+    padding: 10px;
+  }
+}

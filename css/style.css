@@ -5,3 +5,51 @@ ul {
 ul li {
   padding: 10px;
 }
+
+.style1 {
+  margin: 10px;
+}
+
+.style2 {
+  padding: 20px;
+}
+
+section p {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.note {
+  color: #f00;
+}
+
+p a:hover {
+  text-align: underline;
+}
+
+#contents p {
+  padding: 10px;
+}
+
+#content section p {
+  margin-bottom: 20px;
+}
+
+#content p {
+  margin-bottom: 0;
+}
+
+.note {
+  color: #f00;
+}
+
+#content p a:hover {
+  text-align: underline;
+}
+
+#contents #content p {
+  padding: 10px;
+}
