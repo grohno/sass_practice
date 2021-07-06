@@ -1,0 +1,15 @@
+.sideArea {
+  border-radius: 10px;
+  background: #ccc;
+  border: 1px solid #000;
+}
+
+.bottomArea {
+  border-radius: 10px;
+  background: #ccc;
+  border: 1px solid #000;
+}
+
+.main .content {
+  margin-bottom: 10px;
+}
