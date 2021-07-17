@@ -1,0 +1,21 @@
+$IMG_PATH: "../img/";
+$SELECTOR: '.box, .item';
+
+#{$SELECTOR} {
+  $height: 100px;
+  $line-height: 10;
+  background-image: url(#{$IMG_PATH}bg.png);
+  line-height: $height / $line-height;
+}
+
+@for $i from 0 to 2 {
+  .mt#{$i * 5} {
+    margin-top: 5px * $i;
+  }
+}
+
+$text: "css";
+
+.text {
+  content: "#{$text} and Sass"
+}
